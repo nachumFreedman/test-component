@@ -11,15 +11,14 @@
   border-radius: 50px;
   background-color: black;
   padding: .2px;
+  user-select: none;
 }
 
-.fml-select-container > div {
-}
 
 
 .fml-select-container > div:hover {
-  background-color: red;
-  color: black;
+  background-color: #333;
+  color: white;
 }
 
 .fml-first {
@@ -30,7 +29,6 @@
   padding-top: 0.5vh;
   background-color:#272423;
   cursor: pointer;
-
 }
 
 
@@ -53,4 +51,3 @@
   background-color:#272423;
   cursor: pointer;
 }
-
